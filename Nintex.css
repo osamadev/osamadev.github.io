@@ -1,0 +1,127 @@
+.nx-theme-form header.nx-panel-header {
+    background: #851851 !important;
+    border: none !important;
+}
+.nx-theme-form ntx-image.ng-star-inserted  .nx-image-component {
+    width:133px;
+}
+.nx-theme-form header.nx-panel-header .nx-theme-richtext  {
+    color: white !important;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight:500;
+}
+.nx-theme-form .col-xs-12.col-sm-9.ng-star-inserted .nx-theme-richtext span{
+        color: #851851 !important;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight:500;
+    font-size:1.5rem !important;
+}
+  .nx-theme-form  header.nx-panel-header .nx-theme-richtext,[dir] .nx-theme-styles .nx-theme-richtext strong {    
+    color: white !important;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight:500;
+    }
+
+
+.nx-theme-form .col-xs-12.col-sm-9.ng-star-inserted .nx-valign-middle.ng-star-inserted {
+    background: whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+}
+
+[dir] .nx-theme-styles .nx-group-control-container-border-color {
+    border: none;
+}
+
+[dir] .nx-theme-styles .nx-group-control-body {
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+    background: #f8f8f8;
+}
+
+.nx-theme-form .nx-form-label .nx-title {
+    color: black;
+    font-size: 0.9rem !important;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight:500;
+}
+.nx-theme-form  button.btn.btn-icon-only.ntx-repeating-section-remove-button.nx-theme-button-2.ng-star-inserted {
+    background: #ad0303;
+}
+
+
+.nx-theme-form button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted {
+    background: #851851;
+    font-size: 0.9rem;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight:500;
+}
+
+.nx-theme-form button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted:hover {
+    background: #a0145d;
+    color: white;
+}
+
+button.btn.btn-icon-only.ntx-repeating-section-remove-button.nx-theme-button-2.ng-star-inserted {
+    background: #ad0303;
+}
+
+
+button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted {
+    background: #851851;
+    font-size: 0.9rem;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight:500;
+}
+
+button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted:hover {
+    background: #a0145d;
+    color: white;
+}
+
+[dir] .nx-theme-styles .nx-theme-button-1 {
+    background: green !important;
+    border: 1px solid green;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight: normal;
+}
+
+[dir] .nx-theme-styles .nx-theme-button-1:hover {
+    background: #20a920 !important;
+}
+[dir] .nx-theme-styles .nx-theme-richtext p {
+    color: black;
+    font-size: 0.9rem;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    font-weight:500;
+}
+
+header.nx-panel-header .nx-control-richtext-label p {
+    font-size: 1rem !important;
+}
+
+[dir] .nx-theme-styles .form-control[readonly].nx-read-only {
+    border-radius: 4px;
+}
+
+[dir] .nx-theme-styles .nx-theme-input-1 {
+    border-radius: 3px;
+}
+.nx-group-control-container.nx-group-control-container-border-color.repeat-items .repeat-class {
+    background: #f6f1e4;
+    padding: 8px;
+    border:1px solid #d6ceb9;
+    text-align:center;
+ 
+}
+.nx-group-control-container.nx-group-control-container-border-color.repeat-items .repeat-class  .nx-theme-richtext{
+    padding:0 !important;
+margin:0 !important;
+}
+
+.nx-group-control-container.nx-group-control-container-border-color.repeat-items .repeat-class  .nx-theme-richtext p{
+color:#851851
+}
