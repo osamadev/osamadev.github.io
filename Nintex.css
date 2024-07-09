@@ -1,3 +1,6 @@
+.nx-theme-form *{
+font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+}
 .nx-theme-form header.nx-panel-header {
     background: #851851 !important;
     border: none !important;
@@ -7,27 +10,19 @@
 }
 .nx-theme-form header.nx-panel-header .nx-theme-richtext  {
     color: white !important;
-    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
     font-weight:500;
 }
-.nx-theme-form .col-xs-12.col-sm-9.ng-star-inserted .nx-theme-richtext span{
-        color: #851851 !important;
-    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
-    font-weight:500;
-    font-size:1.5rem !important;
-}
-  .nx-theme-form  header.nx-panel-header .nx-theme-richtext,[dir] .nx-theme-styles .nx-theme-richtext strong {    
+
+  .nx-theme-form  header.nx-panel-header .nx-theme-richtext{    
     color: white !important;
-    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
     font-weight:500;
     }
-
-
-.nx-theme-form .col-xs-12.col-sm-9.ng-star-inserted .nx-valign-middle.ng-star-inserted {
-    background: whitesmoke;
-    text-align: center;
-    border-radius: 6px;
+.nx-theme-form header.nx-panel-header .nx-theme-richtext * {
+    color: white !important;
+	font-size:1rem;
+    font-weight: 500;
 }
+
 
 [dir] .nx-theme-styles .nx-group-control-container-border-color {
     border: none;
@@ -45,57 +40,33 @@
 .nx-theme-form .nx-form-label .nx-title {
     color: black;
     font-size: 0.9rem !important;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
-    font-weight:500;
-}
-.nx-theme-form  button.btn.btn-icon-only.ntx-repeating-section-remove-button.nx-theme-button-2.ng-star-inserted {
-    background: #ad0303;
-}
-
-
-.nx-theme-form button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted {
-    background: #851851;
-    font-size: 0.9rem;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
     font-weight:500;
 }
 
-.nx-theme-form button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted:hover {
-    background: #a0145d;
-    color: white;
+.ntx-repeating-section-remove-button {
+    background: #a51414 !important;
+    color: white !important;
+    border: 1px solid #971717 !important;
+    opacity: 0.6  !important;
 }
 
-button.btn.btn-icon-only.ntx-repeating-section-remove-button.nx-theme-button-2.ng-star-inserted {
-    background: #ad0303;
+.ntx-repeating-section-remove-button:hover {
+    opacity: 1 !important;
 }
 
-
-button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted {
-    background: #851851;
-    font-size: 0.9rem;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
-    font-weight:500;
-}
-
-button.btn.btn-medium.nx-theme-button-2.btn-repeating-section-new-row.ng-star-inserted:hover {
-    background: #a0145d;
-    color: white;
-}
 
 [dir] .nx-theme-styles .nx-theme-button-1 {
-    background: green !important;
-    border: 1px solid green;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+    background: #851851 !important;
+    border: 1px solid #851851;
     font-weight: normal;
 }
 
 [dir] .nx-theme-styles .nx-theme-button-1:hover {
-    background: #20a920 !important;
+    background: #a82167 !important;
 }
 [dir] .nx-theme-styles .nx-theme-richtext p {
     color: black;
     font-size: 0.9rem;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
     font-weight:500;
 }
 
@@ -124,4 +95,33 @@ margin:0 !important;
 
 .nx-group-control-container.nx-group-control-container-border-color.repeat-items .repeat-class  .nx-theme-richtext p{
 color:#851851
+}
+
+h1.nx-theme-heading-1 {
+    color: #851851 !important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+	text-align:left !important;
+}
+
+[dir] .nx-theme-styles .nx-theme-button-2 {
+    color: #851851;
+    border: 1px solid #851851;
+}
+
+[dir] .nx-theme-styles .nx-theme-button-2:Hover {
+    background: #851851 !important;
+}
+
+[data-e2e='btn-cancel'] {
+    background: #bf1e1e !important;
+    color: white !important;
+    border: 1px solid #9d1c1c !important;
+}
+
+[dir] .nx-theme-styles button[data-e2e='btn-cancel']:hover {
+    background: #c73b3b !important;
+}
+[dir] .nx-theme-styles .ntx-repeating-section-repeated-section.ntx-repeating-section-alternate-background:nth-child(even) {
+    background: #f4faff !important;
 }
