@@ -97,13 +97,14 @@ margin:0 !important;
 color:#851851
 }
 
-h1.nx-theme-heading-1 {
+h1.nx-theme-heading-1,.header-title * {
     color: #851851 !important;
     font-size: 1.5rem !important;
     font-weight: bold !important;
 	text-align:left !important;
 }
 
+	
 [dir] .nx-theme-styles .nx-theme-button-2 {
     color: #851851;
     border: 1px solid #851851;
@@ -124,4 +125,36 @@ h1.nx-theme-heading-1 {
 }
 [dir] .nx-theme-styles .ntx-repeating-section-repeated-section.ntx-repeating-section-alternate-background:nth-child(even) {
     background: #f4faff !important;
+}
+[dir] .nx-theme-styles .htmleditor .nf-label-control {
+    background: #851851;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white !important;
+    margin-bottom: 12px;
+    margin: 0;
+    border-right: 1px solid white;
+}
+
+[dir] .nx-theme-styles .htmleditor .readonly-control-output {
+    background: white;
+    width: 100%;
+    display: flex;
+    padding: 9px;
+    border: 1px solid #c3c3c3;
+    font-size: 0.9rem !important;
+}
+
+[dir] .nx-theme-styles .htmleditor .nf-col {
+    padding: 0;
+}
+
+[dir] .nx-theme-styles .htmleditor .row.nf-droppable-container {
+    display: flex;
+}
+
+[dir] .nx-theme-styles .htmleditor .nf-col.col-xs-12.col-sm-12.col-md-6.nf-droppable-container {
+    flex: 1;
 }
