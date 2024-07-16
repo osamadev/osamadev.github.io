@@ -23,6 +23,9 @@ font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvet
     font-weight: 500;
 }
 
+td.text-nowrap {
+    white-space: normal !important;
+}
 
 [dir] .nx-theme-styles .nx-group-control-container-border-color {
     border: none;
