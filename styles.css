@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #102642;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #1e3a5f, #285c81);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #f4dc42;
+}
+
+/* References List */
+.references ul {
+    list-style: none;
+    padding: 0;
+}
+
+.references li {
+    background-color: #1b365d;
+    border: 1px solid #285c81;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.references li strong {
+    color: #f4dc42;
+}
+
+.references li a {
+    color: #56c1e1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.references li a:hover {
+    text-decoration: underline;
+}
+
+/* Add hover effect to list items */
+.references li:hover {
+    background-color: #24496d;
+    transition: background-color 0.3s ease;
+}
